@@ -1,0 +1,5 @@
+/* Colors only, taken from the Pampanga State University seal: red and orange-gold. */
+:root{--bg:#FBF5F2;--sf:#fff;--ink:#2A1512;--mut:#74534E;--ln:#EBD9D3;--pri:#C80808;--pon:#fff;--yel:#F8A808;--tint:#FDE8E1}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1A1110;--sf:#261917;--ink:#F7EAE6;--mut:#C2A8A2;--ln:#3F2A26;--pri:#F8A808;--pon:#2A1512;--tint:#3A1C18}}
+:root[data-theme=dark]{--bg:#1A1110;--sf:#261917;--ink:#F7EAE6;--mut:#C2A8A2;--ln:#3F2A26;--pri:#F8A808;--pon:#2A1512;--tint:#3A1C18}
+.steps li.cur{border-color:var(--ink)}
